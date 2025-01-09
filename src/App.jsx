@@ -1,9 +1,12 @@
 
 
-import React, { useState } from "react";
+import React, { useState , useEffect  } from "react";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import { NavLink } from 'react-router-dom'
 import { Route, Routes } from 'react-router-dom'
+
+import AOS from "aos";
+import "aos/dist/aos.css"; // استيراد ملف الأنماط
 
 // // pages
 import Landing from './Landing';
@@ -12,7 +15,6 @@ import Feature from './components/Feature';
 import Client from "./components/Client";
 import Update from "./components/Update";
 import BgServices from "./components/BgServices";
-// import Process from "./components/Process";
 import About from './components/About';
 import Contact from './components/Contact';
 import Listings from './components/Listings';
@@ -30,6 +32,17 @@ import darkicon from './img/buildings dark.png'
 
 
 export default function App() {
+
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // مدة التأثير (اختياري)
+      once: true, // تحديد ما إذا كان التأثير سيعمل مرة واحدة فقط (اختياري)
+    });
+  }, []);
+
+
+
 
       const [isDarkMode, setIsDarkMode] = useState(true);
 

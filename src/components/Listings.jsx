@@ -33,7 +33,7 @@ return (
         <div className="container ">
           <div className="row mt-5">
             
-            <div className="col-md-4 my-4">
+            <div className="col-md-4 my-4" data-aos="fade-up">
               <div className={`items border border-2 rounded-4 ${isDark?' bg-dark border-0' :'border-light-subtle shadow'}`}>
                 <img src={imgOne} onClick={Show} className="img-fluid rounded-top-4" alt="House"/>
                 <div className="card-body p-4">
@@ -49,7 +49,7 @@ return (
               </div>
             </div>
 
-            <div className="col-md-4 my-4">
+            <div className="col-md-4 my-4" data-aos="fade-up">
               <div className={`items border border-2 rounded-4 ${isDark?' bg-dark border-0' :'border-light-subtle shadow'}`}>
                 <img src={imgOnee} onClick={Show} className="img-fluid rounded-top-4" alt="House"/>
                 <div className="card-body p-4">
@@ -65,7 +65,7 @@ return (
               </div>
             </div>
 
-            <div className="col-md-4 my-4">
+            <div className="col-md-4 my-4" data-aos="fade-up">
               <div className={`items border border-2 rounded-4 ${isDark?' bg-dark border-0' :'border-light-subtle shadow'}`}>
                 <img src={imgOneee} onClick={Show} className="img-fluid rounded-top-4" alt="House"/>
                 <div className="card-body p-4">
@@ -81,7 +81,7 @@ return (
               </div>
             </div>
 
-            <div className="col-md-4 my-4">
+            <div className="col-md-4 my-4" data-aos="fade-up">
               <div className={`items border border-2 rounded-4 ${isDark?' bg-dark border-0' :'border-light-subtle shadow'}`}>
                 <img src={imgOneee} onClick={Show} className="img-fluid rounded-top-4" alt="House"/>
                 <div className="card-body p-4">
@@ -97,7 +97,7 @@ return (
               </div>
             </div>
 
-            <div className="col-md-4 my-4">
+            <div className="col-md-4 my-4" data-aos="fade-up">
               <div className={`items border border-2 rounded-4 ${isDark?' bg-dark border-0' :'border-light-subtle shadow'}`}>
                 <img src={imgOnee} onClick={Show} className="img-fluid rounded-top-4" alt="House"/>
                 <div className="card-body p-4">
@@ -113,7 +113,7 @@ return (
               </div>
             </div>
 
-            <div className="col-md-4 my-4">
+            <div className="col-md-4 my-4" data-aos="fade-up">
               <div className={`items border border-2 rounded-4 ${isDark?' bg-dark border-0' :'border-light-subtle shadow'}`}>
                 <img src={imgOne} onClick={Show} className="img-fluid rounded-top-4" alt="House"/>
                 <div className="card-body p-4">
@@ -132,7 +132,7 @@ return (
           </div>            
         </div>
 
-        <div className='row justify-content-center container  ' >
+        <div className='row justify-content-center container' >
           <div   className={`box position-fixed rounded-3  col-md-8 col-10  ' ${isDark? 'bg-dark text-white border  border-secondary ' : 'bg-light shadow'}`} id='box'>
             <div className="container ">
             <div className={`text-end mt-4 close_icon ${isDark? 'text-white-50 close_icond' :'text-black-50 close_iconl'}`}>
@@ -167,7 +167,7 @@ return (
             </div>
           
            <div className="row my-5">
-            <div className="col-sm-8 ">
+            <div className="col-sm-8 " data-aos="fade-up">
               <h4 className='fw-bold'>$750,000</h4>
               <p className= {`card-text ${isDark? 'text-white-50' :'text-black-50'}`}> <i className="fa-solid fa-location-dot"></i> 123 Downtown Ave, City Center </p>
               <div className="my-4 d-flex justify-content-evenly align-items-center pt-3 text-center bg-black rounded-3">
@@ -180,7 +180,7 @@ return (
               <p className= {`card-text ${isDark? 'text-white-50' :'text-black-50'}`}>Beautiful family home in a quiet suburban neighborhood. Features an open floor plan, gourmet kitchen, and large backyard.</p>
               <h4>Features</h4>
               <div className="row">
-                <div className="col-6">
+                <div className="col-6" data-aos="fade-up">
                   <ul className= {`${isDark? 'text-white-50' :'text-black-50'}`}>
                     <li >Open floor plan</li>
                     <li >OLarge backyard</li>
@@ -188,7 +188,7 @@ return (
                     <li >Smart home features  </li>
                   </ul>
                 </div>
-                <div className="col-6">
+                <div className="col-6" data-aos="fade-up">
                   <ul className= {`${isDark? 'text-white-50' :'text-black-50'}`}>
                     <li >Gourmet kitchen  </li>
                     <li >Master suite  </li>
@@ -202,7 +202,7 @@ return (
 
   
             </div>
-            <div className="col-sm-4 ">
+            <div className="col-sm-4 " data-aos="fade-up">
 
               <div className={`rounded p-3 ' ${isDark? 'bg-dark text-white border  border-secondary ' : 'bg-white border '}`}>
                 <div className="d-flex">
@@ -218,10 +218,10 @@ return (
             <h5 className='my-4'>Similar Properties</h5>
 
             <div className="row align-items-center my-4 Similar p-2 rounded-3">
-              <div className="col-6">
+              <div className="col-6" data-aos="fade-up">
                   <img src={imgOnee} style={{width:"70px" ,height:"70px"}} className="w-100 img-fluid rounded-3"  alt="..."/>
               </div>
-              <div className="col-6">
+              <div className="col-6" data-aos="fade-up">
                 <p >Luxury Penthouse </p>
                 <p>$1,200,000</p>
               </div>
@@ -230,20 +230,20 @@ return (
            
         
             <div className="row align-items-center my-4 Similar p-2 rounded-3">
-              <div className="col-6">
+              <div className="col-6" data-aos="fade-up">
                   <img src={imgOneee} style={{width:"70px",height:"70px"}} className="w-100 img-fluid rounded-3"  alt="..."/>
               </div>
-              <div className="col-6">
+              <div className="col-6" data-aos="fade-up">
                 <p > Downtown Loft  </p>
                 <p>    $680,000</p>
               </div>
             </div>
 
             <div className="row align-items-center my-4 Similar p-2 rounded-3">
-              <div className="col-6">
+              <div className="col-6" data-aos="fade-up">
                   <img src={imgOne} style={{width:"70px",height:"70px"}} className="w-100 img-fluid rounded-3"  alt="..."/>
               </div>
-              <div className="col-6">
+              <div className="col-6" data-aos="fade-up">
                 <p > Downtown Loft  </p>
                 <p>    $680,000</p>
               </div>

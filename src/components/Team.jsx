@@ -24,7 +24,7 @@ export default class Team extends Component {
 
             <div className="row mt-5">
 
-              <div className="col-xl-3 col-sm-6 my-4">
+              <div className="col-xl-3 col-sm-6 my-4"  data-aos="fade-up" >
                 <div className={`items border border-2 rounded-4 ${isDark?' bg-dark border-0' :'border-light-subtle shadow'}`}>
                   <img src={img11} onClick={Show} className="img-fluid rounded-top-4" alt="House"/>
                   <div className="card-body p-4">
@@ -41,7 +41,7 @@ export default class Team extends Component {
                 </div>
               </div>
 
-              <div className="col-xl-3 col-sm-6 my-4">
+              <div className="col-xl-3 col-sm-6 my-4"  data-aos="fade-up" >
                 <div className={`items border border-2 rounded-4 ${isDark?' bg-dark border-0' :'border-light-subtle shadow'}`}>
                   <img src={img22} onClick={Show} className="img-fluid rounded-top-4" alt="House"/>
                   <div className="card-body p-4">
@@ -58,7 +58,7 @@ export default class Team extends Component {
                 </div>
               </div>
               
-              <div className="col-xl-3 col-sm-6 my-4">
+              <div className="col-xl-3 col-sm-6 my-4"  data-aos="fade-up" >
                 <div className={`items border border-2 rounded-4 ${isDark?' bg-dark border-0' :'border-light-subtle shadow'}`}>
                   <img src={img33} onClick={Show} className="img-fluid rounded-top-4" alt="House"/>
                   <div className="card-body p-4">
@@ -75,7 +75,7 @@ export default class Team extends Component {
                 </div>
               </div>
 
-              <div className="col-xl-3 col-sm-6 my-4">
+              <div className="col-xl-3 col-sm-6 my-4"  data-aos="fade-up" >
                 <div className={`items border border-2 rounded-4 ${isDark?' bg-dark border-0' :'border-light-subtle shadow'}`}>
                   <img src={img22} onClick={Show} className="img-fluid rounded-top-4" alt="House"/>
                   <div className="card-body p-4">
@@ -105,7 +105,7 @@ export default class Team extends Component {
             <div className="container-fluid">
               <div className="row my-5">
 
-                <div className="col-md-4 my-4">
+                <div className="col-md-4 my-4"  data-aos="fade-up" >
                   <div className={isDark?"items text-center box_dark text-white p-4  shadow rounded":"items text-center box_light p-4 shadow-sm rounded "}>
                   <i className={isDark?"fa-solid fa-award fs-4 mb-3 bgicon_boxdark rounded":"fa-solid fa-award mb-3 fs-4 bgicon_boxlight  bg-body-secondary rounded"}></i>
                     <h4 className="mb-3">Licensed Real Estate Brokerage </h4>
@@ -113,7 +113,7 @@ export default class Team extends Component {
                   </div>
                 </div>
 
-                <div className="col-md-4 my-4">
+                <div className="col-md-4 my-4"  data-aos="fade-up" >
                   <div className={isDark?"items text-center box_dark text-white p-4  shadow rounded":"items text-center box_light p-4 shadow-sm rounded "}>
                   <i className={isDark?"fa-regular fa-star fs-4 mb-3 bgicon_boxdark rounded":"fa-regular fa-star mb-3 fs-4  bgicon_boxlight  bg-body-secondary rounded"}></i>
                     <h4 className="mb-3">National Association of Realtors® </h4>
@@ -121,7 +121,7 @@ export default class Team extends Component {
                   </div>
                 </div>
 
-                <div className="col-md-4 my-4">
+                <div className="col-md-4 my-4"  data-aos="fade-up" >
                   <div className={isDark?"items text-center box_dark text-white p-4  shadow rounded":"items text-center box_light p-4 shadow-sm rounded "}>
                   <i className={isDark?"fa-regular fa-circle-check fs-4 mb-3 bgicon_boxdark rounded":"fa-regular fa-circle-check mb-3 fs-4 bgicon_boxlight  bg-body-secondary rounded"}></i>
                     <h4 className="mb-3">Certified Residential Specialist (CRS) </h4>
@@ -140,7 +140,7 @@ export default class Team extends Component {
             </div>
             <div className="container-fluid">
               <div className="row my-3 justify-content-center">
-                <div className="col-xl-6 col-md-8 col-10">
+                <div className="col-xl-6 col-md-8 col-10"  data-aos="fade-up" >
                   <div className={`items p-3 rounded-4 d-flex  align-items-center  justify-content-between   ${isDark? 'bg-black text-white' : 'bg-white border'}`}>
                     <div className="txts">
                       <h6>Real Estate License </h6>
@@ -154,7 +154,7 @@ export default class Team extends Component {
               </div>
 
               <div className="row my-3 justify-content-center">
-                <div className="col-xl-6 col-md-8 col-10">
+                <div className="col-xl-6 col-md-8 col-10"  data-aos="fade-up" >
                   <div className={`items p-3 rounded-4 d-flex  align-items-center  justify-content-between   ${isDark? 'bg-black text-white' : 'bg-white border'}`}>
                     <div className="txts">
                       <h6>Real Estate License </h6>
@@ -168,7 +168,7 @@ export default class Team extends Component {
               </div>
 
               <div className="row my-3 justify-content-center">
-                <div className="col-xl-6 col-md-8 col-10">
+                <div className="col-xl-6 col-md-8 col-10"  data-aos="fade-up" >
                   <div className={`items p-3 rounded-4 d-flex  align-items-center  justify-content-between   ${isDark? 'bg-black text-white' : 'bg-white border'}`}>
                     <div className="txts">
                       <h6>Real Estate License </h6>
@@ -182,7 +182,7 @@ export default class Team extends Component {
               </div>
 
               <div className="row my-3 justify-content-center">
-                <div className="col-xl-6 col-md-8 col-10">
+                <div className="col-xl-6 col-md-8 col-10"  data-aos="fade-up" >
                   <div className={`items p-3 rounded-4 d-flex  align-items-center  justify-content-between   ${isDark? 'bg-black text-white' : 'bg-white border'}`}>
                     <div className="txts">
                       <h6>Real Estate License </h6>
@@ -211,7 +211,7 @@ export default class Team extends Component {
             </div>
             <div className="container-fluid">
               <div className="row d-flex justify-content-between">
-                <div className="col-md-3 col-sm-6 my-5">
+                <div className="col-md-3 col-sm-6 my-5"  data-aos="fade-up" >
                         <div className="items text-center">
                           <i className={`fa-solid fa-house fs-3 mb-3 rounded-circle ${isDark? 'bgicon_boxdark':'bgicon_boxlight bg-body-secondary'}`}></i>
                           <h3 className='fw-bold'>1000+</h3>
@@ -220,7 +220,7 @@ export default class Team extends Component {
                         </div>
                 </div>
 
-                <div className="col-md-3 col-sm-6 my-5">
+                <div className="col-md-3 col-sm-6 my-5"  data-aos="fade-up" >
                     <div className="items text-center">
                       <i className={`fa-solid fa-user-group fs-3 mb-3 rounded-circle ${isDark? 'bgicon_boxdark':'bgicon_boxlight bg-body-secondary'}`}></i>
                       <h3 className='fw-bold'>5000+</h3>
@@ -229,7 +229,7 @@ export default class Team extends Component {
                 </div>
 
 
-                <div className="col-md-3 col-sm-6 my-5">
+                <div className="col-md-3 col-sm-6 my-5"  data-aos="fade-up" >
                     <div className="items text-center">
                       <i className={`fa-solid fa-arrow-trend-up fs-3 mb-3 rounded-circle ${isDark? 'bgicon_boxdark':'bgicon_boxlight bg-body-secondary'}`}></i>
                       <h3 className='fw-bold'>$1B+</h3>
@@ -237,7 +237,7 @@ export default class Team extends Component {
                     </div>
                 </div>
       
-                <div className="col-md-3 col-sm-6 my-5">
+                <div className="col-md-3 col-sm-6 my-5"  data-aos="fade-up" >
                     <div className="items text-center">
                       <i className={`fa-regular fa-clock fs-3 mb-3 rounded-circle ${isDark? 'bgicon_boxdark':'bgicon_boxlight bg-body-secondary'}`}></i>
                       <h3 className='fw-bold'>13+</h3>

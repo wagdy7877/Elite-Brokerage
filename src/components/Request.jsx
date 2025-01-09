@@ -14,17 +14,17 @@ export default class Request extends Component {
             </div>
             <form>
                 <div className="row container justify-content-center">
-                    <div   className={` col-lg-7 col-md-10  my-5 p-4 shadow rounded-3  ${isDark? 'bg-dark text-white' : ''}`}>
+                    <div data-aos="fade-up"   className={` col-lg-7 col-md-10  my-5 p-4 shadow rounded-3  ${isDark? 'bg-dark text-white' : ''}`}>
                         <div className="row">
 
-                            <div className="col-sm-6">
+                            <div className="col-sm-6 "  data-aos="fade-up" >
                                 <div className="items">
                                     <label htmlFor="name">Name</label>
                                     <input type="text" className="form-control mt-2 mb-3" placeholder="Name" id='name' required/>
                                 </div>
                             </div>
 
-                            <div className="col-sm-6">
+                            <div className="col-sm-6"  data-aos="fade-up" >
                                 <div className="items">
                                     <label htmlFor="email">Email</label>
                                     <input type="email" id='email' className="form-control mt-2 mb-3" placeholder="your@email.com" required/>
@@ -35,14 +35,14 @@ export default class Request extends Component {
 
                         <div className="row">
 
-                            <div className="col-sm-6">
+                            <div className="col-sm-6"  data-aos="fade-up" >
                                 <div className="items">
                                     <label htmlFor="Phone">Phone</label>
                                     <input type="tel" className="form-control mt-2 mb-3" placeholder="Your Phone Number" id='Phone' required/>
                                 </div>
                             </div>
 
-                            <div className="col-sm-6">
+                            <div className="col-sm-6"  data-aos="fade-up" >
                                 <div className="items">
                                     <label htmlFor="email">Service Type</label>
                                     <select className="form-select mt-2" aria-label="Default select example">
@@ -58,7 +58,7 @@ export default class Request extends Component {
 
                         <div className="row">
 
-                            <div className="col-12">
+                            <div className="col-12"  data-aos="fade-up" >
                                 <div className="items">
                                     <label htmlFor="email">Budget Range </label>
                                     <select className="form-select mt-2 mb-3" aria-label="Default select example">
@@ -74,7 +74,7 @@ export default class Request extends Component {
 
                         <div className="row">                        
 
-                            <div className="col-12">
+                            <div className="col-12"  data-aos="fade-up" >
                                 <div className="items">
                                 <label htmlFor="email">Budget Range </label>
                                 <textarea  className="form-control p-2 mt-2 mb-3" rows="5" name="message" placeholder='Your Message'/>

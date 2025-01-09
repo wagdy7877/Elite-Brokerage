@@ -19,7 +19,7 @@ export default class About extends Component {
         <div className="container-fluid">
         <div className="row my-5">
 
-          <div className="col-md-4 my-4">
+          <div className="col-md-4 my-4" data-aos="fade-up">
             <div className={isDark?"items  box_dark text-white p-4  shadow rounded":"items box_light p-4 shadow-sm rounded "}>
             <i className={isDark?"fa-regular fa-heart fs-4 mb-3 bgicon_boxdark rounded":"fa-regular fa-heart mb-3 fs-4 bgicon_boxlight  bg-body-secondary rounded"}></i>
               <h4 className="mb-3"> Client-Centric</h4>
@@ -27,7 +27,7 @@ export default class About extends Component {
             </div>
           </div>
 
-          <div className="col-md-4 my-4">
+          <div className="col-md-4 my-4" data-aos="fade-up">
             <div className={isDark?"items box_dark text-white p-4  shadow rounded":"items box_light p-4 shadow-sm rounded "}>
             <i className={isDark?"fa-solid fa-record-vinyl fs-4 mb-3 bgicon_boxdark rounded":"fa-solid fa-record-vinyl mb-3 fs-4  bgicon_boxlight  bg-body-secondary rounded"}></i>
               <h4 className="mb-3"> Excellence</h4>
@@ -35,7 +35,7 @@ export default class About extends Component {
             </div>
           </div>
 
-          <div className="col-md-4 my-4">
+          <div className="col-md-4 my-4" data-aos="fade-up">
             <div className={isDark?"items box_dark text-white p-4  shadow rounded":"items box_light p-4 shadow-sm rounded "}>
             <i className={isDark?"fa-solid fa-user-group fs-4 mb-3 bgicon_boxdark rounded":"fa-solid fa-user-group mb-3 fs-4 bgicon_boxlight  bg-body-secondary rounded"}></i>
               <h4 className="mb-3">Community</h4>
@@ -43,7 +43,7 @@ export default class About extends Component {
             </div>
           </div>
 
-          <div className="col-md-4 my-4">
+          <div className="col-md-4 my-4" data-aos="fade-up">
             <div className={isDark?"items  box_dark text-white p-4  shadow rounded":"items box_light p-4 shadow-sm rounded "}>
             <i className={isDark?"fa-solid fa-shield fs-4 mb-3 bgicon_boxdark rounded":"fa-solid fa-shield mb-3 fs-4 bgicon_boxlight  bg-body-secondary rounded"}></i>
               <h4 className="mb-3">Integrity</h4>
@@ -51,7 +51,7 @@ export default class About extends Component {
             </div>
           </div>
 
-          <div className="col-md-4 my-4">
+          <div className="col-md-4 my-4" data-aos="fade-up">
             <div className={isDark?"items  box_dark text-white p-4  shadow rounded":"items box_light p-4 shadow-sm rounded "}>
             <i className={isDark?"fa-regular fa-lightbulb fs-4 mb-3 bgicon_boxdark rounded":"fa-regular fa-lightbulb  mb-3 fs-4 bgicon_boxlight  bg-body-secondary rounded"}></i>
               <h4 className="mb-3">Innovation</h4>
@@ -59,7 +59,7 @@ export default class About extends Component {
             </div>
           </div>
           
-          <div className="col-md-4 my-4">
+          <div className="col-md-4 my-4" data-aos="fade-up">
             <div className={isDark?"items box_dark text-white p-4  shadow rounded":"items box_light p-4 shadow-sm rounded "}>
             <i className={isDark?"fa-regular fa-gem fs-4 mb-3 bgicon_boxdark rounded":"fa-regular fa-gem mb-3 fs-4 bgicon_boxlight  bg-body-secondary rounded"}></i>
               <h4 className="mb-3">Quality </h4>

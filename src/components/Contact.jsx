@@ -10,7 +10,7 @@ export default class Contact extends Component {
        <div className={`contact py-5  container-fluid ${isDark? 'bg-dark text-white' : 'bg-white '}`}>
         <div className="row">
               <h2 className='mb-4 fw-bold'>Contact Us</h2>
-          <div className="col-sm-6">
+          <div className="col-sm-6" data-aos="fade-up">
             <div className="items">
 
               <div className={`box mb-5 p-4 container rounded-3 ${isDark? 'bg-black' : 'bg-light '}`}>
@@ -58,7 +58,7 @@ export default class Contact extends Component {
             </div>
           </div>
 
-          <div className="col-sm-6">
+          <div className="col-sm-6" data-aos="fade-up">
             <div className="items h-100">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d438283.2495977249!2d30.974702301074213!3d30.8842022956286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2seg!4v1736281463813!5m2!1sar!2seg"
             className='h-100 w-100 rounded-3' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

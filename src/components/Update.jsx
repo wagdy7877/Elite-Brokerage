@@ -50,15 +50,15 @@ export default function Update(props) {
         </div>
         <div className="stay mt-5 ">
             <div className="row">
-                <div  className={`m-auto p-5 col-md-6 col-sm-8 text-center ${isDark? 'bg-dark text-white' : 'bg-light'}`}>
+                <div  className={`m-auto p-5 col-md-6 col-sm-8 text-center ${isDark? 'bg-dark text-white' : 'bg-light'}`}  data-aos="fade-up" >
                     <h2 className='fw-bold'>Stay Updated</h2>
                     <p className={`my-4 fs-5 ${isDark?"text-white-50":"text-black-50"}`}>Subscribe to our newsletter for the latest market insights and exclusive opportunities</p>
                     <div className="container">
                         <div className="row">
-                        <div className="col-sm-8 my-2">
+                        <div className="col-sm-8 my-2"  data-aos="fade-up" >
                             <input  className={`form-control p-2 ${isDark?" bg-black border border-secondary inp_black":"inp_light"}`} type="email" name="email" placeholder='Enter your email'/>
                         </div>
-                        <div className="col-sm-4 my-2">
+                        <div className="col-sm-4 my-2"  data-aos="fade-up" >
 
                             <button className={`btn form-control p-2 ' ${isDark?" btn-light text-black":"btn-dark "}`}>Subscribe </button>
                         </div>

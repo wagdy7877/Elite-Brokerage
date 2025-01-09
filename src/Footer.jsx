@@ -11,7 +11,7 @@ export default function Footer(props) {
 
   return (
     <>
-      <div className={`pt-2 ${isDark? 'bg-black text-white' : 'bg-white'}`}>
+      <div className={`pt-2 ${isDark? 'bg-black text-white' : 'bg-white'}`}  > 
         <footer className=" text-center text-lg-start">
           <div className="container-fluid p-5">
             <div className="row">

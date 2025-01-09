@@ -1,7 +1,17 @@
-import React from 'react'
+import React , {  useEffect  }  from 'react'
+
+import AOS from "aos";
+import "aos/dist/aos.css"; // استيراد ملف الأنماط
 
 export default function Services(props) {
   let isDark = props.Mode ;
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // مدة التأثير (اختياري)
+      once: true, // تحديد ما إذا كان التأثير سيعمل مرة واحدة فقط (اختياري)
+    });
+  }, []);
 
   return (
     <>
@@ -11,7 +21,7 @@ export default function Services(props) {
       <div className="container-fluid">
         <div className="row my-5">
 
-          <div className="col-md-4 my-4">
+          <div className="col-md-4 my-4 " data-aos="fade-up" > 
             <div className={isDark?"items text-center box_dark text-white p-4  shadow rounded":"items text-center box_light p-4 shadow-sm rounded "}>
             <i className={isDark?"fa-solid fa-magnifying-glass fs-4 mb-3 bgicon_boxdark rounded":"fa-solid fa-magnifying-glass mb-3 fs-4 bgicon_boxlight  bg-body-secondary rounded"}></i>
               <h4 className="mb-3">Property Search</h4>
@@ -19,7 +29,7 @@ export default function Services(props) {
             </div>
           </div>
 
-          <div className="col-md-4 my-4">
+          <div className="col-md-4 my-4" data-aos="fade-up" >
             <div className={isDark?"items text-center box_dark text-white p-4  shadow rounded":"items text-center box_light p-4 shadow-sm rounded "}>
             <i className={isDark?"fa-solid fa-house fs-4 mb-3 bgicon_boxdark rounded":"fa-solid fa-house mb-3 fs-4  bgicon_boxlight  bg-body-secondary rounded"}></i>
               <h4 className="mb-3">Virtual Tours</h4>
@@ -27,7 +37,7 @@ export default function Services(props) {
             </div>
           </div>
 
-          <div className="col-md-4 my-4">
+          <div className="col-md-4 my-4" data-aos="fade-up">
             <div className={isDark?"items text-center box_dark text-white p-4  shadow rounded":"items text-center box_light p-4 shadow-sm rounded "}>
             <i className={isDark?"fa-solid fa-calculator fs-4 mb-3 bgicon_boxdark rounded":"fa-solid fa-calculator mb-3 fs-4 bgicon_boxlight  bg-body-secondary rounded"}></i>
               <h4 className="mb-3">Mortgage Calculator</h4>
@@ -35,7 +45,7 @@ export default function Services(props) {
             </div>
           </div>
 
-          <div className="col-md-4 my-4">
+          <div className="col-md-4 my-4" data-aos="fade-up">
             <div className={isDark?"items text-center box_dark text-white p-4  shadow rounded":"items text-center box_light p-4 shadow-sm rounded "}>
             <i className={isDark?"fa-solid fa-headset fs-4 mb-3 bgicon_boxdark rounded":"fa-solid fa-headset mb-3 fs-4 bgicon_boxlight  bg-body-secondary rounded"}></i>
               <h4 className="mb-3">24/7 Support</h4>
@@ -43,7 +53,7 @@ export default function Services(props) {
             </div>
           </div>
 
-          <div className="col-md-4 my-4">
+          <div className="col-md-4 my-4" data-aos="fade-up">
             <div className={isDark?"items text-center box_dark text-white p-4  shadow rounded":"items text-center box_light p-4 shadow-sm rounded "}>
             <i className={isDark?"fa-solid fa-file-arrow-up fs-4 mb-3 bgicon_boxdark rounded":"fa-solid fa-file-arrow-up  mb-3 fs-4 bgicon_boxlight  bg-body-secondary rounded"}></i>
               <h4 className="mb-3">Document Assistance</h4>
@@ -51,7 +61,7 @@ export default function Services(props) {
             </div>
           </div>
 
-          <div className="col-md-4 my-4">
+          <div className="col-md-4 my-4" data-aos="fade-up">
             <div className={isDark?"items text-center box_dark text-white p-4  shadow rounded":"items text-center box_light p-4 shadow-sm rounded "}>
             <i className={isDark?"fa-solid fa-key fs-4 mb-3 bgicon_boxdark rounded":"fa-solid fa-key mb-3 fs-4 bgicon_boxlight  bg-body-secondary rounded"}></i>
               <h4 className="mb-3">Move-in Support</h4>

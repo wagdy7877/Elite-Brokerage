@@ -14,7 +14,7 @@ export default function Feature(props) {
             <div className="container">
                 <div className="row mt-5">
 
-                    <div className="col-md-4 my-4">
+                    <div className="col-md-4 my-4" data-aos="fade-up">
                         <div className={`items border border-2 rounded-4 ${isDark?' bg-dark border-0' :'border-light-subtle shadow'}`}>
                             <img src={imgOne} className="img-fluid rounded-top-4" alt="House"/>
                             <div className="card-body p-4">
@@ -30,7 +30,7 @@ export default function Feature(props) {
                         </div>
                     </div>
 
-                    <div className="col-md-4 my-4">
+                    <div className="col-md-4 my-4" data-aos="fade-up">
                         <div className={`items border border-2 rounded-4 ${isDark?' bg-dark border-0' :'border-light-subtle shadow'}`}>
                             <img src={imgTwo} className="img-fluid rounded-top-4" alt="House"/>
                             <div className="card-body p-4">
@@ -46,7 +46,7 @@ export default function Feature(props) {
                         </div>
                     </div>
 
-                    <div className="col-md-4 my-4">
+                    <div className="col-md-4 my-4" data-aos="fade-up">
                         <div className={`items border border-2 rounded-4 ${isDark?' bg-dark border-0' :'border-light-subtle shadow'}`}>
                             <img src={imgThree} className="img-fluid rounded-top-4" alt="House"/>
                             <div className="card-body p-4">

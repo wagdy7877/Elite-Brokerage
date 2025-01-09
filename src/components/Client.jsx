@@ -15,7 +15,7 @@ export default function Client(props) {
         <div className="container-fluid py-5">
             <div className="row ">
                 
-                <div className="col-md-4 mt-4">
+                <div className="col-md-4 mt-4" data-aos="fade-up">
                     <div  className={`items rounded-4 p-4 d-flex flex-column justify-content-around  ${isDark?"bg-black text-white":"bg-white text-black"}`}>
                     <i className="fa-solid fa-quote-right fs-1" ></i>
                     <p className={`${isDark?"text-white-50":"text-black-50"}`}>"Working with Elite Brokerage was a game-changer for our business acquisition.
@@ -30,7 +30,7 @@ export default function Client(props) {
                     </div>
                 </div>
 
-                <div className="col-md-4 mt-4">
+                <div className="col-md-4 mt-4" data-aos="fade-up">
                     <div  className={`items rounded-4 p-4 d-flex flex-column justify-content-around ${isDark?"bg-black text-white":"bg-white text-black"}`}>
                     <i className="fa-solid fa-quote-right fs-1" ></i>
                     <p className={` ${isDark?"text-white-50":"text-black-50"}`}>"The team's professionalism and market knowledge helped us secure the perfect location for our expansion."</p><br/>
@@ -44,7 +44,7 @@ export default function Client(props) {
                     </div>
                 </div>
 
-                <div className="col-md-4 mt-4">
+                <div className="col-md-4 mt-4" data-aos="fade-up">
                     <div  className={`items rounded-4 p-4 d-flex flex-column justify-content-around ${isDark?"bg-black text-white":"bg-white text-black"}`}>
                     <i className="fa-solid fa-quote-right fs-1" ></i>
                     <p className={` ${isDark?"text-white-50":"text-black-50"}`}>"Their attention to detail and commitment to our success made all the difference in our business sale."</p><br/>
