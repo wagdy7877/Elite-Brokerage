@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+CO+Guides&display=swap');
+
+body {
+  font-family: "Inter", serif;
+  font-style: oblique;
+  overflow-x: hidden;
+}
+
+/* start navbar */
+.navbar .btn_contact:hover{
+  background:rgba(143, 141, 141, 0.507) !important;
+}
+/* end navbar */
+
+/* start landing */
+.landing{
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ) , url("./img/photo-1486406146926-c627a92ad1ab.jpg") ;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.landing h1{
+  font-size: 3.75rem;
+}
+/* end landing */
+
+/* start services && about && certifications*/
+.services .box_dark ,.about .box_dark , .certifications .box_dark  {
+background-color: rgb(31 41 55);
+}
+.services .box_light ,.about .box_light , .certifications .box_light {
+  transition-duration: .4s !important;
+}
+.services .box_light:hover,.about .box_light:hover , .certifications .box_light:hover  {
+ box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2) !important;
+}
+.services .bgicon_boxdark,.about .bgicon_boxdark , .certifications .bgicon_boxdark{
+  background: hsla(0, 0%, 98%, 0.1);
+  padding: 10px;
+}
+.services .bgicon_boxlight ,.about .bgicon_boxlight , .certifications .bgicon_boxlight{
+  padding: 10px; 
+}
+/* end services && about && certifications */
+
+/* start feature &&& Listings */
+.feature .items img ,.Listings .items img{
+height: 35vh;
+width: 100% !important;
+}
+.Listings .items img:hover{
+cursor: pointer;
+}
+.Listings .box{
+  display: none;
+  top:10%;
+  bottom: 10%;
+  overflow-y: scroll;
+}
+.Listings .box .close_icon{
+ cursor: pointer;
+}
+.Listings .box .close_icond :hover{
+  color: white;
+}
+.Listings .box .close_iconl :hover{
+  color: black;
+}
+.Listings .box .slide img{
+ height:50vh;
+}
+.Listings .box .Similar:hover{
+  background: #0000003a;
+}
+/* end feature &&& Listings */
+
+
+/* start update */
+.update .bgicon_boxdark{
+  background: hsla(0, 0%, 98%, 0.1);
+  padding: 20px;
+}
+.update .bgicon_boxlight{
+  padding: 20px;
+}
+.update .inp_black::placeholder{
+  color: rgba(255, 255, 255, 0.7);
+}
+/* end update */
+
+/* start  contact */
+.contact input::placeholder , .contact textarea::placeholder{
+  padding: 8px;
+}
+.contact .inp_black::placeholder{
+  color: rgba(255, 255, 255, 0.7);
+}
+/* end contact */
+
+/* start bgservices  */
+.bgservices{
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ) , url("./img/photo-home-ce09059eeffa.avif") ;
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+}
+/* end bgservices */
+
+/* start team */
+.team img{
+  height: 50vh;
+  /* background-size: cover; */
+  width: 100%;
+  /* background-position: center; */
+}
+.team .hovdark:hover{
+  background: hsla(0, 0%, 98%, 0.1);
+}
+.team .hovlight:hover{
+  background: hsla(0, 0%, 0%, 0.1);
+}
+/* end team */
+
+
+/* start footer */
+footer .fll:hover{
+  color: black !important;
+}
+/* end footer */
